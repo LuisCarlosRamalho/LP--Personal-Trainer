@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container dskt-viwer">
+      <!--Hero da Landing Page-->
+      <header>
+        <nav id="menu">
+          <a href="#hero"> <img src="./img/logo 1.png" alt="logo" id="hero"/> </a>
+          <ul id="listMenu">
+            <a href="#about"><li>SOBRE</li></a>
+            <a href="#advantage"><li>VANTAGENS</li></a>
+            <a href="#testimony"><li>DEPOIMENTOS</li></a>
+            <a href="#contact"><li>CONTATOS</li></a>
+          </ul>
+          <button id="btnMenu">
+            <span id="hamburguer"></span>
+          </button>
+
+        </nav>
+
+        <div id ="text">
+          <h1>MANTENHA SEU CORPO <span>FORTE</span> E EM <span>FORMA</span></h1>
+
+          <p>
+            Conheça os benefícios do exercitar-se com um personal trainer
+            especializado
+          </p>
+
+          <button id="btn-cadastro">
+            <a href="#contact">Agendar Avaliação</a>
+          </button>
+        </div>
+      </header>
+      <!--main com todas as section-->
+      <main>
+        <!--section about-->
+        <section class="about" id="about">
+          <img
+            src="img/img-personal.png" alt=""
+            alt="imagem do educador físico"
+          />
+          <div id="text-about">
+            <h3>O Personal Trainer</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel ex
+              ipsum. Nulla fringilla eros et augue lobortis convallis. In non
+              consequat augue. Praesent laoreet velit ut ex egestas, non
+              pharetra lacus blandit. Nulla convallis lorem ut bibendum
+              lobortis. Integer ut hendrerit elit, mollis pretium leo. Donec
+              vels malesuada enim. Maecenas at arcu eget enim condimentum
+              finibus quis nec mauris. Interdum et malesuada fames ac ante ipsum
+              primis in faucibus. Phasellus sagittis enim nec sapien
+              sollicitudin, a molestie nisl pretium. Donec quis dui metus.
+              Integer condimentum nunc eu varius finibus. Nullam vitae diam
+              nulla.
+            </p>
+          </div>
+        </section>
+        <section class="advantage adv-dskt" id="advantage">
+          <div class="advantage-divs adv-divs">
+            <img src="./img/treinador-qualificado.png" alt="treinador-qualificado">
+            <h3>Treinador Qualificado</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel ex ipsum. Nulla fringilla eros et augue lobortis convallis.
+            </p>
+          </div>
+          <div class="advantage-divs adv-divs">
+            <img src="./img/abordagem-individual.png" alt="abordagem-individual">
+            <h3>Abordagem Individual</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Ut vel ex ipsum. Nulla fringilla eros et augue lobortis convallis.
+            </p>
+          </div>
+          <div class="advantage-divs adv-divs">
+            <img src="./img/metodologia_diferenciada.png" alt="Metodologia Diferenciada">
+            <h3>Metodologia Diferenciada</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Ut vel ex ipsum. Nulla fringilla eros et augue lobortis convallis.
+            </p>
+          </div>
+        </section>
+        <!--Testimony-->
+        <section class="testimony" id="testimony">
+          <div  class = "divs-testimony selected">
+            <img src="./img/testimonyone.png" alt="Testemunho 1">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Ut vel ex ipsum. Nulla fringilla eros et augue lobortis convallis. In non consequat augue.“
+              </p> <span>Andres Santos - Aluno</span>
+          </div>
+
+          <div class = "divs-testimony">
+            <img src="./img/testimonytwo.png" alt="Testemunho 2">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel ex ipsum. Nulla fringilla eros et augue lobortis convallis. In non consequat augue. 
+              Praesent laoreet velit ut ex egestas.“
+              </p> <span>Julia Gomes - Aluna</span>
+          </div>
+
+          <div  class = "divs-testimony">
+            <img src="./img/testimonythree.png" alt="Testemunho 3">
+            <p>“Lorem consectetur adipiscing elit. Ut vel ex ipsum. Nulla fringilla eros et augue lobortis convallis. In non consequat augue. 
+              Praesent laoreet velit ut ex egestas, non pharetra lacus blandit.“
+              </p> <span>Elisa Oliveira - Aluna</span>
+          </div>
+
+        </section>
+      </main>
+      <!--Rodapé-->
+      <footer class="contato" id="contact">
+        <div id="text-footer">
+          <h1>QUER SABER COMO PODEMOS <span>AJUDAR</span> VOCÊ A CHEGAR NO TÃO <span>SONHADO OBJETIVO?</span></h1>
+          <p>Não perca a oportunidade de agendar uma avaliação com um de nossos profissionais. </p>
+        </div>
+        <!--Rodapé - formulário-->
+        <form>
+          <div id="inputs">
+            <input type="text" id="nome" placeholder="Nome Completo" autocomplete="off" required>
+            <input type="tel" id="celular" placeholder=" Telefone de contato" autocomplete="off" required>
+            <input type="text" id="endereco" placeholder="Endereço" autocomplete="off">
+            <input type="email" id="email" placeholder="Email" autocomplete="off" required>
+            <button id="btn-cadastro_">Agendar Avaliação</button>
+          </div>
+        </form>
+        <footer class="social-media">
+          <ul>
+            <li><img src="/img/facebook 1.png" alt="" srcset=""></li>
+            <li><img src="/img/instagram 1.png" alt="" srcset=""></li>
+            <li><img src="/img/twitter 1.png" alt="" srcset=""></li>
+          </ul>
+        </footer>
+      </footer>
+    </div>
+<!---->
+<script src="main.js"></script>
+    
+  </body>
+</html>
