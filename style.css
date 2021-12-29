@@ -316,7 +316,7 @@ form .inputs{
         align-items: center;
     }
 
-    #listMenu{        
+    #menu #listMenu{        
         display: block;
         position: absolute;
         top: 5rem;
@@ -343,7 +343,6 @@ form .inputs{
     }
 
     #btnMenu{
-        display: flex;
         margin-right: 1rem;
         cursor: pointer;
     }
@@ -355,7 +354,7 @@ form .inputs{
         border: none;
     }
 
-    #listMenu li{
+    #menu #listMenu li{
         display: flex;
         justify-content: center;
         padding: 5rem 0;
