@@ -174,8 +174,119 @@ main{
     font-size: 1.2rem;
 }
 
+.dskt-testimony{
+    position: relative;
+    height: 27rem;    
+}
+
+.divs-testimony{
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    margin-top: 1.2rem;
+}
+
+.dsktImg img{
+    margin-left: 1rem
+}
+
+.divs-testimony p{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+.divs-testimony span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
 
 
+.dskt-txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.selected{
+    opacity: 1;
+}
+
+#contact{
+    grid-area: footer;
+    background: #1F1F1F;
+    height: auto;
+}
+
+.uno{
+    display: flex;
+}
+
+
+.text-footer h1{
+    color: #F6F3F3;
+    font-size: 3.8rem;
+    margin: 1.8rem;
+    width: 55rem;
+}
+
+.text-footer p{
+    color: #F6F3F3;
+    font-size: 1.6rem;
+    margin-left: 1.8rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 53rem;
+    margin-top: 1.8rem;
+}
+
+.inputs input{
+    width: 100%;
+    height: 4rem;
+    margin-bottom: .3rem;
+    padding: 1rem;
+}
+
+.inputs #btn-cadastro_{
+    color: #F6F3F3;
+    background: #058a01;
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    position: relative;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    margin-right: 1rem;
+}
+
+
+.social-media{
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 5rem;
+}
+
+.social-media ul li{
+    display: inline;
+    margin: 0 1rem;
+}
 
 
 
@@ -416,7 +527,7 @@ main{
 
     .testimony{
         position: relative;
-        height: 36rem;
+        height: 40rem;
     }
 
     .divs-testimony{
@@ -437,9 +548,14 @@ main{
     }
 
     .divs-testimony span{
-        margin-left: 1rem;
+        margin: 1rem 2rem;
         font-size: 1.4rem;
         font-weight: bold;
+    }
+
+    .dskt-txt{
+        display: flex;
+        flex-direction: column;
     }
 
     .selected {
@@ -452,6 +568,12 @@ main{
         background: #1F1F1F;
     }
 
+
+    .uno{
+        display: flex;
+        flex-direction: column;
+    }
+    
     #text-footer{
         font-size: 1.2rem;
         color: #F6F3F3;
@@ -461,6 +583,8 @@ main{
 
     #text-footer h1 {
         margin-bottom: 1rem;
+        font-size: 2.8rem;
+        width: auto;
     }
 
     #text-footer span{
@@ -472,7 +596,8 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 .5rem
+        padding: 0 .5rem;
+        width: auto;
     }
 
     #inputs input {
@@ -488,7 +613,7 @@ main{
         background: #17A001;
         color: #F6F3F3;
         border: none;
-        margin: 2rem 0;
+        
     }
     
     #inputs #btn-cadastro:active{
